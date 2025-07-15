@@ -1,7 +1,7 @@
 # TODO List
 
 ## Metodologias de Pentest 
-- [ ] PTES
+- [x] PTES
 - [ ] WSTG
 - [ ] ASVS
 - [x] Cyber Kill Chain

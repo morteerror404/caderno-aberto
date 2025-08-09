@@ -2,8 +2,8 @@
 
 ## Metodologias de Pentest 
 - [x] PTES
-- [ ] WSTG
-- [ ] ASVS
+- [x] WSTG
+- [x] ASVS
 - [x] Cyber Kill Chain
 
 ## APP SEC OPS

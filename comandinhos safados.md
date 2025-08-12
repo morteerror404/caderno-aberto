@@ -1,7 +1,6 @@
 # NMAP
 
-```nmap -vvv -O -Pn -sV -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap
--bootstrap.xsl scanme.nmap.org scanme2.nmap.org
+```nmap -vvv -O -Pn -sV -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap -bootstrap.xsl scanme.nmap.org scanme2.nmap.org
 ```
 
 # FFUF

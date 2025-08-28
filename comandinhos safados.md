@@ -1,7 +1,11 @@
-# NMAP
+# NMAP 
 
 ```
-nmap  -vvv -O -Pn -sV -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap
+https://nmap.org/nsedoc/scripts/
+```
+
+```
+nmap  -vvv -O -Pn -sV -sS -T4 -A -sC -oA ./--script=afp-path-vuln,broadcast-avahi-dos,clamav-exec,distcc-exec,http-cross-domain-policy,http-cookie-flags,dns-update,ftp-libopie,http-adobe-coldfusion-apsa1301,http-aspnet-debug,http-avaya-ipoffice-users,http-dlink-backdoor,http-dlink-backdoor,http-enum,http-self-xss,http-stored-xss.nse,ssl-ccs-injection   scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap
 -bootstrap.xsl scanme.nmap.org scanme2.nmap.org
 ```
 

@@ -5,7 +5,7 @@ https://nmap.org/nsedoc/scripts/
 ```
 
 ```
-nmap insecure.org -vvv -O -sV -sS -T4 -A -sC \
+nmap -vvv -O -sV -sS -T4 -A -sC \
 --script afp-path-vuln,\
 broadcast-avahi-dos,\
 clamav-exec,\
@@ -110,10 +110,10 @@ sslv2-drown,\
 supermicro-ipmi-conf,\
 tls-ticketbleed,\
 vulners,\
-wdb-version, -Ao scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl scanme.nmap.org scanme2.nmap.org
+wdb-version, -Ao scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl 
 ```
 ```
-nmap  -vvv -O -Pn -sV -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl scanme.nmap.org scanme2.nmap.org
+nmap -vvv -O -Pn -sV -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl 
 ```
 ## Scripts 
 ```

@@ -1,0 +1,1 @@
+nmap exemple.com -sT -sV -p 53 -sU -vvv -O

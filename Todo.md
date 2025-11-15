@@ -13,7 +13,7 @@
 - [ ] WebDav
 - [ ] API Rest
 - [ ] API GraphQL
-- [ ] PHP Wrapper
+- [x] PHP Wrapper
 - [ ] OGNL/EL Injection (Spring)
 - [ ] XML External Entity Attack 
 - [ ] Desserialização Insegura (PHP, JAVA, .NET, JAVASCRIPT, PYTHON e etc.)

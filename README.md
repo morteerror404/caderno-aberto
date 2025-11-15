@@ -5,8 +5,11 @@ https://nmap.org/nsedoc/scripts/
 ```
 
 ```
-nmap insecure.org -vvv -O -sV -sS -T4 -A -sC \
---script afp-path-vuln,\
+nmap -vvv -O -sV -sS -T4 -A -sC \
+--webxml --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl \
+--dns-servers 1.1.1.1,1.0.0.1,9.9.9.9,149.112.112.112,8.8.8.8,8.8.4.4 \
+--script \
+afp-path-vuln,\
 broadcast-avahi-dos,\
 clamav-exec,\
 distcc-cve2004-2687,\
@@ -109,11 +112,12 @@ ssl-poodle,\
 sslv2-drown,\
 supermicro-ipmi-conf,\
 tls-ticketbleed,\
-vulners,\
-wdb-version, -Ao scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl scanme.nmap.org scanme2.nmap.org
+vulners \
+
 ```
+
 ```
-nmap  -vvv -O -Pn -sV -sS -T4 -A -sC -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl scanme.nmap.org scanme2.nmap.org
+nmap -vvv -O -Pn -sV -sS -T4 -A -sC --dns-servers 1.1.1.1 ,1.0.0.1 ,9.9.9.9 ,149.112.112.112 ,8.8.8.8 ,8.8.4.4 -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl 
 ```
 ## Scripts 
 ```

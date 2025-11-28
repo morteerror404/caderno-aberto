@@ -1,0 +1,27 @@
+```bash
+enum4linux 1.1.1.1  -v -r -n -o -i
+```
+
+```bash
+snmpwalk -c public -v1 
+```
+
+```bash
+snmpwalk -c private -v1 
+```
+
+```bash
+snmpwalk -c cisco -v1 
+```
+
+```bash
+snmpwalk -c manager -v1 
+```
+
+```bash
+snmpwalk -c access -v1 
+```
+
+```bash
+snmpwalk -c secret -v1 
+```

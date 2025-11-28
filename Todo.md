@@ -8,7 +8,7 @@
 
 ## APP SEC OPS
 
-- [ ] Frameworks 
+- [x] Frameworks 
 - [ ] API Security 
 - [ ] WebDav
 - [ ] API Rest
@@ -36,8 +36,8 @@
 - [ ] Protocol Smuggling (FastCGI)
 - [ ] Protocol Smuggling (Zabbix)
 - [ ] Protocol Smuggling (MemCache)
-- [ ] Sever Side Template Injection 
-- [ ] SSTI (Twing)
+- [x] Sever Side Template Injection 
+- [x] SSTI (Twing)
 - [ ] SSTI (Jinja)
 - [ ] SSTI (ERB)
 - [ ] XXE - Out-of-Band

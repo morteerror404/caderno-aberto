@@ -7,7 +7,12 @@ https://nmap.org/nsedoc/scripts/
 ---
 
 ```bash
-nmap -sT -sV -p 53 -sU -vvv -O
+nmap -sT -sV -p 53 -sU -vvv -O -A 
+```
+---
+
+```bash
+nmap -sT -sV -g 53 -sU -vvv -O 
 ```
 
 ```

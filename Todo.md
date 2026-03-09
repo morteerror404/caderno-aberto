@@ -30,7 +30,7 @@
 ## Infra Pentest
 
 - [x] Subdomain Takeover 
-- [ ] Log Poisoning / Log Injection
+- [x] Log Poisoning / Log Injection
 - [ ] Protocol Smuggling (MySQL)
 - [ ] Protocol Smuggling (Redis)
 - [ ] Protocol Smuggling (FastCGI)

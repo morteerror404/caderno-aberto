@@ -17,14 +17,14 @@
 - [ ] OGNL/EL Injection (Spring)
 - [ ] XML External Entity Attack 
 - [ ] Desserialização Insegura (PHP, JAVA, .NET, JAVASCRIPT, PYTHON e etc.)
-- [ ] Container (Cgroup e Namespaces)
-- [ ] Container Runtime
-- [ ] Docker Container 
-- [ ] Orquestração de containeres com docker compose 
-- [ ] Kubernetes 
+- [x] Container (Cgroup e Namespaces)
+- [x] Container Runtime
+- [x] Docker Container 
+- [x] Orquestração de containeres com docker compose 
+- [x] Kubernetes 
 - [x] Criar um control Plane do Zero
-- [ ] Configurar um worker do Zero
-- [ ] Explorarando Clusters de Kubernets
+- [x] Configurar um worker do Zero
+- [x] Explorarando Clusters de Kubernets
 
 
 ## Infra Pentest

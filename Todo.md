@@ -9,7 +9,7 @@
 ## APP SEC OPS
 
 - [x] Frameworks 
-- [ ] API Security 
+- [x] API Security 
 - [ ] WebDav
 - [ ] API Rest
 - [ ] API GraphQL

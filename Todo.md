@@ -31,11 +31,11 @@
 
 - [x] Subdomain Takeover 
 - [x] Log Poisoning / Log Injection
-- [ ] Protocol Smuggling (MySQL)
-- [ ] Protocol Smuggling (Redis)
-- [ ] Protocol Smuggling (FastCGI)
-- [ ] Protocol Smuggling (Zabbix)
-- [ ] Protocol Smuggling (MemCache)
+- [x] Protocol Smuggling (MySQL)
+- [x] Protocol Smuggling (Redis)
+- [x] Protocol Smuggling (FastCGI)
+- [x] Protocol Smuggling (Zabbix)
+- [x] Protocol Smuggling (MemCache)
 - [x] Sever Side Template Injection 
 - [x] SSTI (Twing)
 - [ ] SSTI (Jinja)

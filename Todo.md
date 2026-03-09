@@ -10,9 +10,9 @@
 
 - [x] Frameworks 
 - [x] API Security 
-- [ ] WebDav
-- [ ] API Rest
-- [ ] API GraphQL
+- [x] WebDav
+- [x] API Rest
+- [x] API GraphQL
 - [x] PHP Wrapper
 - [ ] OGNL/EL Injection (Spring)
 - [ ] XML External Entity Attack 

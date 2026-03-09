@@ -29,7 +29,7 @@
 
 ## Infra Pentest
 
-- [ ] Subdomain Takeover 
+- [x] Subdomain Takeover 
 - [ ] Log Poisoning / Log Injection
 - [ ] Protocol Smuggling (MySQL)
 - [ ] Protocol Smuggling (Redis)
@@ -42,4 +42,4 @@
 - [ ] SSTI (ERB)
 - [ ] XXE - Out-of-Band
 - [ ] Dependency Confusion
-- [ ] Desserialização Insegura
+- [x] Desserialização Insegura

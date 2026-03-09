@@ -22,7 +22,7 @@
 - [ ] Docker Container 
 - [ ] Orquestração de containeres com docker compose 
 - [ ] Kubernetes 
-- [ ] Criar um control Plane do Zero
+- [x] Criar um control Plane do Zero
 - [ ] Configurar um worker do Zero
 - [ ] Explorarando Clusters de Kubernets
 

@@ -14,8 +14,8 @@
 - [x] API Rest
 - [x] API GraphQL
 - [x] PHP Wrapper
-- [ ] OGNL/EL Injection (Spring)
-- [ ] XML External Entity Attack 
+- [x] OGNL/EL Injection (Spring)
+- [x] XML External Entity Attack 
 - [ ] Desserialização Insegura (PHP, JAVA, .NET, JAVASCRIPT, PYTHON e etc.)
 - [x] Container (Cgroup e Namespaces)
 - [x] Container Runtime

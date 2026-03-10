@@ -40,6 +40,6 @@
 - [x] SSTI (Twing)
 - [ ] SSTI (Jinja)
 - [ ] SSTI (ERB)
-- [ ] XXE - Out-of-Band
-- [ ] Dependency Confusion
+- [x] XXE - Out-of-Band
+- [x] Dependency Confusion
 - [x] Desserialização Insegura

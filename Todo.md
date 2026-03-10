@@ -38,8 +38,8 @@
 - [x] Protocol Smuggling (MemCache)
 - [x] Sever Side Template Injection 
 - [x] SSTI (Twing)
-- [ ] SSTI (Jinja)
-- [ ] SSTI (ERB)
+- [x] SSTI (Jinja)
+- [x] SSTI (ERB)
 - [x] XXE - Out-of-Band
 - [x] Dependency Confusion
 - [x] Desserialização Insegura

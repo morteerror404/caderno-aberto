@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "nmap"
             }
+          },
+          {
+            "id": "c4462061fa404f44",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bug hunt md template/RPC CLIENT.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "RPC CLIENT"
+            }
           }
         ]
       }
@@ -169,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -185,12 +198,15 @@
   },
   "active": "efaa4539cfecab87",
   "lastOpenFiles": [
-    "Bug hunt md template/Ferramentas nativas.md",
     "Bug hunt md template/ffuf.md",
-    "README.md",
-    "Sem título.base",
-    "Hack.md",
+    "Bug hunt md template/passive recon.md",
+    "Bug hunt md template/RPC CLIENT.md",
     "Bug hunt md template/nmap.md",
-    "Bug hunt md template/passive recon.md"
+    "Bug hunt md template/Ferramentas nativas.md",
+    "README.md",
+    "Hack.md",
+    "cloudflare.md",
+    "Todo.md",
+    "Sem título.base"
   ]
 }

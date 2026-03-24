@@ -10,20 +10,20 @@ https://nmap.org/nsedoc/scripts/
 nmap -sT -sV -p 53 -sU -vvv -O
 ```
 
-```
-nmap -vvv -O -sV -sS -T4 -A -sC --webxml --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl --dns-servers 1.1.1.1,1.0.0.1,9.9.9.9,149.112.112.112,8.8.8.8,8.8.4.4 --script vulners
+```bash
+nmap -vvv -O -sV -sS -T4 -A -sC --webxml --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl --script vulners
 ```
 
 ```bash 
- nmap -p- -sSV -sUV -O -vvv -A
+nmap -p- -sSV -sUV -O -vvv -A
 ```
 
-```
+```bash
 nmap -vvv -O -Pn -sV -sS -T4 -A -sC --dns-servers 1.1.1.1 ,1.0.0.1 ,9.9.9.9 ,149.112.112.112 ,8.8.8.8 ,8.8.4.4 -oA scanme --stylesheet https://raw.githubusercontent.com/honze-net/nmap-bootstrap-xsl/master/nmap-bootstrap.xsl 
 ```
 
 ```bash
-namap -vvv -sSV -sUV -O -p- --script all
+nmap -vvv -sSV -sUV -O -p- --script all
 ```
 
 ---

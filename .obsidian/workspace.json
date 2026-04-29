@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Bug hunt md template/nmap.md",
+                "file": "PrivilegeScalation/Readme.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nmap"
+              "title": "Readme"
             }
           },
           {
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bug hunt md template/nmap.md",
+                "file": "PrivilegeScalation/Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para nmap"
+              "title": "Links inversos para Readme"
             }
           },
           {
@@ -198,13 +198,13 @@
   },
   "active": "efaa4539cfecab87",
   "lastOpenFiles": [
+    "Hack.md",
+    "Bug hunt md template/nmap.md",
     "Bug hunt md template/ffuf.md",
     "Bug hunt md template/passive recon.md",
     "Bug hunt md template/RPC CLIENT.md",
-    "Bug hunt md template/nmap.md",
     "Bug hunt md template/Ferramentas nativas.md",
     "README.md",
-    "Hack.md",
     "cloudflare.md",
     "Todo.md",
     "Sem título.base"

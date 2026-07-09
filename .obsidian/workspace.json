@@ -1,14 +1,14 @@
 {
   "main": {
-    "id": "2a836737ba14b16d",
+    "id": "54ce1567a0dc4b81",
     "type": "split",
     "children": [
       {
-        "id": "e9a7e22e0fd18f70",
+        "id": "55c3711b5e62bc69",
         "type": "tabs",
         "children": [
           {
-            "id": "efaa4539cfecab87",
+            "id": "4209353ec8407558",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,20 +20,6 @@
               "icon": "lucide-file",
               "title": "Readme"
             }
-          },
-          {
-            "id": "c4462061fa404f44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bug hunt md template/RPC CLIENT.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "RPC CLIENT"
-            }
           }
         ]
       }
@@ -41,15 +27,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "590a57c6f4b21bfc",
+    "id": "e722d8be875ef711",
     "type": "split",
     "children": [
       {
-        "id": "eabeb41a3101bbf6",
+        "id": "3a9970ca6eeff8dc",
         "type": "tabs",
         "children": [
           {
-            "id": "1148e08d52a00ec7",
+            "id": "db3ff33267c3099f",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -62,7 +48,7 @@
             }
           },
           {
-            "id": "192c14e5397f855c",
+            "id": "9873a1b074a61650",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -79,7 +65,7 @@
             }
           },
           {
-            "id": "0152e8d264009993",
+            "id": "531c50b74edb6b1e",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -95,20 +81,19 @@
     "width": 300
   },
   "right": {
-    "id": "31a47e29c75a15f9",
+    "id": "c4fa329c53f624de",
     "type": "split",
     "children": [
       {
-        "id": "eec0dd0b59f53917",
+        "id": "e54133819e7d87d1",
         "type": "tabs",
         "children": [
           {
-            "id": "6e9864a5e4a10b88",
+            "id": "579b576f1d8df670",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PrivilegeScalation/Readme.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,25 +103,24 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Links inversos para Readme"
+              "title": "Links inversos"
             }
           },
           {
-            "id": "7aa37d59b221485c",
+            "id": "34a5fb77c9ef797e",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bug hunt md template/nmap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Links de saída para nmap"
+              "title": "Links de saída"
             }
           },
           {
-            "id": "c0afadfd055ae86d",
+            "id": "1b12d19052f2dfbe",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -147,11 +131,11 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "Etiquetas"
             }
           },
           {
-            "id": "d4502f1080b49d42",
+            "id": "44241d75832c29a3",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -165,25 +149,25 @@
             }
           },
           {
-            "id": "c6e1baaaf68803b3",
+            "id": "d71e32f972d3f51c",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bug hunt md template/nmap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Sumário de nmap"
+              "title": "Sumário"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,17 +180,6 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "efaa4539cfecab87",
-  "lastOpenFiles": [
-    "Hack.md",
-    "Bug hunt md template/nmap.md",
-    "Bug hunt md template/ffuf.md",
-    "Bug hunt md template/passive recon.md",
-    "Bug hunt md template/RPC CLIENT.md",
-    "Bug hunt md template/Ferramentas nativas.md",
-    "README.md",
-    "cloudflare.md",
-    "Todo.md",
-    "Sem título.base"
-  ]
+  "active": "4209353ec8407558",
+  "lastOpenFiles": []
 }

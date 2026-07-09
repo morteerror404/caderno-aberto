@@ -20,6 +20,8 @@ hostname
 cat /etc/hosts
 cat /etc/resolv.conf
 find / -type f \( -perm -4000 -o -perm -2000 \) -exec ls -lg {} \; >> suid.txt 2>/dev/null
+find / -type f -perm -4000 2>/dev/null
+getcap -r / 2>/dev/null
 ``` 
 
 informações de usuários e grupos
@@ -205,7 +207,10 @@ flatpak list
 snap list
 ``` 
 
+
+
 ```bash
 
 ``` 
 
+- [ ] dei a bundinha hoje 
